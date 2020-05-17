@@ -1,0 +1,93 @@
+/* Standard */
+* {
+  box-sizing: border-box;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Makes the Logo and Navigation Same Line */
+
+.logo, .navigationtabs {
+  float: left;
+}
+
+.mainnavtab ul {
+  list-style-type: none;
+}
+.mainnavtab li{
+  display: inline;
+}
+
+.navigationtabs {
+  margin-top: 60px;
+}
+
+nav a {
+  font-size: 25px;
+  border: 2px solid black;
+}
+
+header {
+  background-color: #1C1C1C;
+}
+
+/* color for each nav tab */
+
+.navtabone a:link {
+  background-color: #1B1B1B;
+  color: white;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.25em;
+  border-color: #d4145a;
+}
+
+.navtabone a:hover {
+  color: #1d1d1d;
+  background: #d4145a;
+}
+
+.navtabtwo a:link {
+  background-color: #1B1B1B;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.25em;
+  border-color: #00ffff;
+}
+
+.navtabtwo a:hover {
+  color: #1B1B1B;
+  background: #00ffff;
+}
+
+.navtabthree a:link {
+  background-color: #1B1B1B;
+  color: white;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.25em;
+  border-color: #00ff00;
+}
+
+.navtabthree a:hover {
+  color: #1B1B1B;
+  background: #00ff00;
+}
+
+/* education links */
+
+
+
+/* heading two layout */
+
+h2 {
+  color: #9A266C;
+}
