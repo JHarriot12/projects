@@ -91,3 +91,25 @@ header {
 h2 {
   color: #9A266C;
 }
+
+/* images */
+
+/* Container holding the image and the text */
+.containert {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  font-size: 30px;
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+  top: 15px;
+
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 300px;
+  background: rgba(0, 0, 0, 0.8);
+}
